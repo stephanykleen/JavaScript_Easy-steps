@@ -26,3 +26,16 @@ function lastLetter(string){
   return string.charAt(string.length - 1);
 }
 console.log(lastLetter('juliana'))
+
+
+//Create a loop
+let array = ['john','martin','louis','anna'];
+for(name of array){
+  console.log(name);
+}
+for(let i = 1; i < array.length; i++){
+  console.group(array[i]);
+  if (i === 3) break
+}
+
+//Another more consice way for loop arrays
