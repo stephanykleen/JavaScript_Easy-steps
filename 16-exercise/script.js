@@ -1,4 +1,4 @@
-// Procedural
+// Procedural method
 let a = 'Stephany';
 let b = 'knows coding'
 
@@ -9,7 +9,7 @@ console.log(Code())
 
 
 
-//OOP 
+//Encapsulation method in OOP
 
 let objVar = {
   a: 'Stephany',
